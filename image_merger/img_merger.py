@@ -1,8 +1,8 @@
 from PIL import Image
 
 # Open the two input images
-image1 = Image.open("/home/kalin/Desktop/Dics/diplom_masters.jpg")
-image2 = Image.open("/home/kalin/Desktop/Dics/diplom_masters_2.jpg")
+image1 = Image.open("/home/your_first_image_directory")   # directory to the img you want to merge 
+image2 = Image.open("/home/your_first_image_directory")   # directory to the img you want to merge  
 
 # Get the dimensions of the first image
 width1, height1 = image1.size
